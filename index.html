@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autotech Global- Innovating Automotive Solutions</title>
+    <title>Autotech Global India - Automotive Innovation Hub</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * {
@@ -26,6 +26,8 @@
             width: 100%;
             top: 0;
             z-index: 1000;
+            border-bottom: 3px solid #FF9933;
+            /* Saffron accent */
         }
 
         .nav-container {
@@ -35,18 +37,6 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 2rem;
-        }
-
-        .logo-container {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .logo-img {
-            height: 75px;
-            border-radius: 50%;
-            width: auto;
         }
 
         .logo {
@@ -68,12 +58,13 @@
         }
 
         .nav-links a:hover {
-            color: #4CAF50;
+            color: #138808;
+            /* Indian green */
         }
 
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?auto=format&fit=crop&w=1920&q=80');
+                url('https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             height: 100vh;
             display: flex;
@@ -95,7 +86,8 @@
         }
 
         .cta-button {
-            background: #4CAF50;
+            background: #138808;
+            /* Indian green */
             color: #fff;
             padding: 1rem 2.5rem;
             border: none;
@@ -106,7 +98,7 @@
         }
 
         .cta-button:hover {
-            background: #45a049;
+            background: #0f6e07;
         }
 
         .features {
@@ -132,7 +124,8 @@
 
         .feature-card i {
             font-size: 2.5rem;
-            color: #4CAF50;
+            color: #138808;
+            /* Indian green */
             margin-bottom: 1rem;
         }
 
@@ -140,6 +133,8 @@
             background: #1a1a1a;
             color: #fff;
             padding: 4rem 2rem;
+            border-top: 3px solid #FF9933;
+            /* Saffron accent */
         }
 
         .footer-container {
@@ -152,6 +147,8 @@
 
         .footer-section h3 {
             margin-bottom: 1.5rem;
+            color: #FF9933;
+            /* Saffron */
         }
 
         .footer-section ul {
@@ -177,6 +174,16 @@
             font-size: 1.5rem;
         }
 
+        .indian-badge {
+            background: #138808;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -192,43 +199,42 @@
 <body>
     <header class="header">
         <nav class="nav-container">
-            <div class="logo-container">
-                <img class="logo-img" src="./logo.jpeg" />
-                <a href="#" class="logo">AUTOTECH GLOBAL</a>
-            </div>
+            <a href="#" class="logo">AUTOTECH BHARAT</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#solutions">Solutions</a>
                 <a href="#innovation">Innovation</a>
                 <a href="#contact">Contact</a>
+                <a href="#भाषा">भाषा: हिन्दी</a>
             </div>
         </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Driving Automotive Innovation</h1>
-            <p>Global leader in automotive technology solutions and smart manufacturing</p>
-            <button class="cta-button">Explore Solutions</button>
+            <h1>Driving <span style="color: #FF9933">Indian</span> Automotive Innovation</h1>
+            <p>Pioneering automotive technology solutions for India and emerging markets</p>
+            <button class="cta-button">Explore Make in India</button>
+            <div class="indian-badge">Certified Make in India Partner</div>
         </div>
     </section>
 
     <section class="features">
         <div class="features-container">
             <div class="feature-card">
-                <i class="fas fa-microchip"></i>
-                <h3>Smart Manufacturing</h3>
-                <p>Industry 4.0 solutions for next-gen automotive production</p>
+                <i class="fas fa-industry"></i>
+                <h3>Local Manufacturing</h3>
+                <p>Atmanirbhar Bharat initiative compliant production facilities</p>
             </div>
             <div class="feature-card">
-                <i class="fas fa-robot"></i>
-                <h3>Automation Solutions</h3>
-                <p>Advanced robotics and AI-powered automation systems</p>
+                <i class="fas fa-solar-panel"></i>
+                <h3>Sustainable Mobility</h3>
+                <p>EV solutions for Indian road conditions and climate</p>
             </div>
             <div class="feature-card">
-                <i class="fas fa-battery-full"></i>
-                <h3>EV Technology</h3>
-                <p>Cutting-edge electric vehicle components and systems</p>
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Cost Innovation</h3>
+                <p>Affordable automation for MSME suppliers</p>
             </div>
         </div>
     </section>
@@ -236,16 +242,19 @@
     <footer>
         <div class="footer-container">
             <div class="footer-section">
-                <h3>Contact Us</h3>
-                <p>PUMBA University</p>
+                <h3>India Headquarters</h3>
+                <p>Auto Tech Park, Sector 68</p>
+                <p>Gurugram, Haryana 122001</p>
+                <p>+91 11 2345 6789</p>
+                <p>contact@autotechbharat.in</p>
             </div>
             <div class="footer-section">
-                <h3>Quick Links</h3>
+                <h3>Our Plants</h3>
                 <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#solutions">Solutions</a></li>
-                    <li><a href="#careers">Careers</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>Chennai Manufacturing Hub</li>
+                    <li>Pune R&D Center</li>
+                    <li>Ahmedabad EV Facility</li>
+                    <li>Bengaluru Innovation Lab</li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -253,10 +262,17 @@
                 <div class="social-links">
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fas fa-share-alt"></i></a>
                 </div>
+                <h3 style="margin-top: 2rem">Certifications</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Make_in_India_logo.png/1200px-Make_in_India_logo.png"
+                    alt="Make in India" style="height: 50px; margin-top: 1rem">
             </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem; border-top: 1px solid #444; padding-top: 1rem">
+            <p>© 2023 Autotech Bharat Limited. CIN: U35900HR2023PLC123456</p>
+            <p>Registered Office: Plot No. 123, Udyog Vihar, Phase V, Gurugram, Haryana</p>
         </div>
     </footer>
 </body>
